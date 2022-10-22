@@ -1,5 +1,5 @@
 #!/bin/bash
-cd i3_setup
+
 cp -r .config/* "$HOME"/.config
 sudo cp -r ./scripts/* /usr/local/bin
 sudo cp -r ./fonts/* /usr/share/fonts
